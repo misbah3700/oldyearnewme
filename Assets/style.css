@@ -87,3 +87,32 @@
 .failure-list > li > svg{
     margin-top: 5px;
 }
+
+/* Plan Section */
+
+.plan{
+    text-align: center;
+    margin-top: 200px;
+    color: #151414;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 600;
+}
+.plan-container{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.plan-subtitle{
+    padding-top: 10px;
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+}
+.plan-info{
+    padding-top: 10px;
+    color: #737272;
+    font-size: 20px;
+    font-weight: 500;
+}
