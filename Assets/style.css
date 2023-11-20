@@ -45,3 +45,45 @@
     border: none;
     cursor: pointer;
 }
+
+/* Failure Section */
+
+.failure{
+    margin-top: 180px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+}
+.failure-img{
+    background-color: rgba(241, 91, 34, 0.20);
+   border-radius: 50%;
+
+}
+.failure-info-title{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 300px;
+}
+.failure-description{
+    color:#444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 410px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.failure-list{
+    list-style-type: none;
+}
+.failure-list > li{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.failure-list > li > svg{
+    margin-top: 5px;
+}
